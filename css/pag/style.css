@@ -1,0 +1,28 @@
+#navbar {
+    background-color: #20c997;
+}
+section {
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    width: 1200px;
+    height: 860px;
+    border-radius: 45px;
+    overflow: hidden;
+    
+}
+
+section img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5 ease;
+}
+
+section img:hover {
+    cursor: pointer;
+    width: 600px;
+    opacity: 1;
+    filter: contrast(120%);
+}
